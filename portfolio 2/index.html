@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Sahail | Portfolio</title>
+  
+  <!-- Google Fonts: Outfit for Display, Inter for Body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Boxicons for modern icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Blob Backgrounds -->
+  <div class="bg-blob blob-1"></div>
+  <div class="bg-blob blob-2"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand">Sahail<span class="dot">.</span></a>
+
+      <nav id="mainNav" class="nav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+          <i class='bx bx-sun icon-sun'></i>
+          <i class='bx bx-moon icon-moon'></i>
+        </button>
+        <button id="menuBtn" class="menu-btn" aria-label="Toggle menu">
+          <i class='bx bx-menu'></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero container reveal">
+      <div class="hero-content">
+        <span class="eyebrow"><i class='bx bxs-zap'></i> Designing. Building. Learning.</span>
+        <h1 class="fullname">Hi, I'm <br><span class="gradient-text">Mohammed Sahail</span></h1>
+        <p class="tagline">ECE Student &bull; Frontend Developer &bull; Tech Enthusiast</p>
+        
+        <div class="tech-stack">
+          <span>Tech Stack:</span>
+          <div class="tech-icons">
+            <i class='bx bxl-html5' title="HTML5"></i>
+            <i class='bx bxl-css3' title="CSS3"></i>
+            <i class='bx bxl-javascript' title="JavaScript"></i>
+            <i class='bx bxl-python' title="Python"></i>
+            <i class='bx bxl-c-plus-plus' title="C++"></i>
+            <i class='bx bxl-react' title="React"></i>
+          </div>
+        </div>
+        
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+      
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <img id="profilePhoto" src="DP.jpeg" alt="Mohammed Sahail">
+          <div class="glow-ring"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about container reveal">
+      <div class="section-heading">
+        <h2>About</h2>
+      </div>
+      <div class="about-content glass-panel">
+        <p>
+          I’m Mohammed Sahail, an Electronics & Communication Engineering student deeply passionate about web development. I thrive on designing clean, modern interfaces while continuously experimenting with microcontrollers, circuits, and IoT concepts.
+        </p>
+        <p>
+          My experience spans building real-world projects including AI-based applications, dynamic web platforms, and hardware-integrated systems. I love the intersection where software and hardware meet to create practical, user-focused solutions.
+        </p>
+        <p>
+          Always eager to learn, I actively participate in hackathons and love tackling innovative ideas that solve real-world problems.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects container reveal">
+      <div class="section-heading">
+        <h2>Projects</h2>
+      </div>
+      
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card glass-panel">
+          <div class="project-image-placeholder">
+             <!-- Replace this div with an <img src="image.jpg" alt="Project"> tag -->
+             <span>Image Placeholder</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Karnataka Agro Trailer</h3>
+            <p class="project-desc">
+              A comprehensive e-commerce platform for agricultural and industrial equipment. Features a clean, user-friendly interface to browse and purchase tractors, trailers, and specialized machinery.
+            </p>
+          </div>
+          <div class="project-footer">
+            <ul class="project-tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/MohammedSahail/Karnataka-Enterprises" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+              <a href="https://karnatakaenterprises.netlify.app/" target="_blank" title="Live Site"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card glass-panel">
+          <div class="project-image-placeholder">
+             <!-- Replace this div with an <img src="image.jpg" alt="Project"> tag -->
+             <span>Image Placeholder</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Suraksha AI</h3>
+            <p class="project-desc">
+              An intelligent, real-time cyber-intelligence platform designed to identify and prevent online scams, harmful links, and fake messages utilizing advanced NLP and Machine Learning techniques.
+            </p>
+          </div>
+          <div class="project-footer">
+            <ul class="project-tech">
+              <li>Flask</li>
+              <li>Python</li>
+              <li>Hugging Face</li>
+              <li>SQLite</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/MohammedSahail/Suraksha.ai" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card glass-panel">
+          <div class="project-image-placeholder">
+             <!-- Replace this div with an <img src="image.jpg" alt="Project"> tag -->
+             <span>Image Placeholder</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Silent Help</h3>
+            <p class="project-desc">
+              A responsive emergency support web application allowing users to silently send alerts and their real-time location to nearby assistance or trusted contacts during critical situations.
+            </p>
+          </div>
+          <div class="project-footer">
+            <ul class="project-tech">
+              <li>React.js</li>
+              <li>CSS</li>
+              <li>HTML</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/MohammedSahail/SilentHelp" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+              <a href="https://silenthelp456.netlify.app/" target="_blank" title="Live Site"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact container reveal">
+      <div class="contact-inner glass-panel text-center">
+        <h2 class="contact-title">Let's Connect</h2>
+        <p class="contact-desc">
+          I'm currently looking for new opportunities and collaborations. Whether you have a question, a project idea, or just want to say hi, my inbox is always open!
+        </p>
+        
+        <div class="contact-info">
+          <a href="mailto:sahailmohammed786@gmail.com" class="contact-btn">
+            <i class='bx bxl-gmail'></i> sahailmohammed786@gmail.com
+          </a>
+          <a href="https://wa.me/917892295098" target="_blank" class="contact-btn whatsapp">
+            <i class='bx bxl-whatsapp'></i> +91 7892295098
+          </a>
+        </div>
+        <p class="location"><i class='bx bx-map'></i> Bangalore, India</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Mohammed Sahail. Built with passion.</p>
+    </div>
+  </footer>
+
+  <button id="topBtn" class="top-btn" aria-label="Scroll to top">
+    <i class='bx bx-up-arrow-alt'></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
